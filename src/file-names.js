@@ -1,4 +1,4 @@
-const { NotImplementedError } = require('../lib');
+const { NotImplementedError } = require("../lib");
 
 /**
  * There's a list of file, since two files cannot have equal names,
@@ -21,5 +21,5 @@ function renameFiles(/* names */) {
 }
 
 module.exports = {
-  renameFiles
+  renameFiles,
 };
