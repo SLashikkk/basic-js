@@ -1,4 +1,4 @@
-const { NotImplementedError } = require('../lib');
+const { NotImplementedError } = require("../lib");
 
 /**
  * Implement class DepthCalculator with method calculateDepth
@@ -18,6 +18,7 @@ class DepthCalculator {
     throw new NotImplementedError('Not implemented');
   }
 }
+
 
 module.exports = {
   depthCalculator: new DepthCalculator(),
